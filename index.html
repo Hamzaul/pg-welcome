@@ -30,22 +30,14 @@
                     <i id="location_icon" class="fa-solid fa-location-dot"></i>
                     <a class="link" href="Bhagalpur - Google Maps.html">Bhagalpur</a>
                 </div>
-                <div class="login_container">
-                    <select name="" id="select">
-                     <option>
-                       <a class="login-link" href="lgn.html" target="main">
-                       Log-in
-                       </a>
-                     </option>
-                     <option >
-                       <a class="login-link" href="signup.html" target="main">
-                       Log-out
-                       </a>
-                     </option>
-                       
-                    </select>
-                    
-                </div>
+              <div class="login_container">
+  <select id="select" onchange="location = this.value;">
+    <option value="">Select</option>
+    <option value="lgn.html">Log-in</option>
+    <option value="signup.html">Log-out</option>
+  </select>
+</div>
+
                 <div class="show">
                     <div class="showp1">
                         <p id="show">Post Property</p>
