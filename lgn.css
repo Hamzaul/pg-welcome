@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    width: 350px;
+    height: 520px;
+    margin-left: 40%;
+    margin-top: 60px;
+    background: transparent;
+    border: 2px soid rgb(255,255,255,0.5);
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+    }
+    button{width: 255px;
+    height:35px;
+    margin-left: 50px;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: #700303;}
+    
+    a{ text-decoration: none;
+        color:white;
+    }
+    input{
+    
+     width: 250px;
+     height: 50px;
+     border: none;
+     border-bottom:1px solid black;
+    
+    }
+    #first{
+    margin-top: 20px;
+     margin-left: 20px;
+     font-size: 22px;
+     font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h3{
+        color: #070000;
+        font-size: 2em;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .input-box{
+        position: relative;
+         margin: 30px 0;
+         margin-left: 50px;
+         width: 310px;
+         
+     }
+     
+     .input-box label {
+       position: absolute;
+         top: 50%;
+         left: 5px;
+         transform: translate(-50%);
+         font-size: 1em;
+         color:   gray;
+         pointer-events: none;
+         transition: .5s;
+     }
+     .input-box input:focus~label,
+     .input-box input:valid~label {
+       top: -5px;
+       color: rgb(5, 0, 0);
+     }
+    .input-box input{
+     width: 200px;
+     height: 50px;
+     background: none;
+     border: 0 0 0 1px solid ;
+     outline: none;
+    
+     font-size: 1em;
+     padding: 0 35px 0 25px;
+    }
+    .input-box .icon {
+        position: absolute;
+        right: 50px;
+        color: #080000;
+        font-size: 1em;
+        line-height: 57px;
+    }
+    
+    body{
+    background-image: url("darkwhite.webp");
+    background-size: cover;
+    }
+    #arrow{
+     margin-left: 20px;
+     font-size: 28px;
+     margin-top: 30px;
+     color:black;
+    }
+    #up{
+        display: flex;
+        justify-content: flex-start;
+        background-color: #700303;
+        height: 50px;
+        width: 100%;
+    }
+    #head{
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        margin-left: 120px;
+        color: whitesmoke;
+    }
+    #hr{
+       
+        text-align: center;
+        color: #050000;
+      
+    }
+    #relog{
+        margin-left: 50px;
+    }
+    #last{
+        color: blue;
+        text-decoration: underline;
+    }
+    
+    footer{
+        height: 80px;
+        background-color: black;
+        
+    }
+    
+    #ter{
+        margin-left: 20px;
+    }
+    .footer{
+        margin-top: 50px;
+    }
+    .footer1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    #cmagic{
+        color: #b7b098;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    #check{
+        width: 15px;
+        margin-left: 50px;
+    }
+    #pri{
+        color: blue;
+        text-decoration: underline;
+    }
+    p1{
+        font-size: 13px;
+    }
+    #help{
+        color: #070000;
+        
+        margin-left: 230px;    
+    }
+    
+    #google{
+        color:rgb(105, 47, 74);
+        margin-left: 130px;
+        font-size: 30px;
+    }
+    #sign{
+        color: #700303;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 5px;
+        
+    }
+    #newt{
+        color: black;
+        margin-left: 100px
+    }
+    #lop{
+        display: flex;
+    }
+    #face{
+        color: rgb(43, 21, 168);
+        margin-left: 20px;
+        font-size: 30px;
+       
+    }
+    #insta{
+    
+        margin-left: 20px;
+        font-size: 30px;
+        color: #700303;
+    }

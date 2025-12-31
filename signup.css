@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("images/darkred.webp");
+    background-size: cover;
+}
+#main{width: 350px;
+    height: 650px;
+    margin-left: 38%;
+    margin-top: 60px;
+    border-radius: 5px;
+    border: 2px soid rgb(255,255,255,0.5);
+    background: transparent;
+    backdrop-filter: blur(15px);
+    }
+    button{
+    width: 255px;
+    height:35px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    box-shadow: 2px 2px 3px 2px gray;
+    background-color: #fff;}
+    
+    a{ text-decoration: none;
+        color:white;
+    }
+    input{
+    
+     width: 250px;
+     height: 50px;
+     border: none;
+     border-bottom:1px solid black;
+    
+    }
+    h3{
+        color: #ffff;
+        font-size: 2em;
+        text-align: center;
+    }
+   
+    .input-box{
+       position: relative;
+        margin: 30px 0;
+        margin-left: 50px;
+        width: 310px;
+        
+    }
+    
+    .input-box label {
+      position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translate(-50%);
+        font-size: 1em;
+        color: #464343;
+        pointer-events: none;
+        transition: .5s;
+    }
+    .input-box input:focus~label,
+    .input-box input:valid~label {
+      top: -5px;
+      color: rgb(0,0,0);
+    }
+   .input-box input{
+    width: 200px;
+    height: 50px;
+    border: 0 0 0 1px solid;
+    color: #fff;
+    background: none;
+    outline: none;
+    font-size: 1em;  
+    padding: 0 35px 0 25px;
+   }
+
+   .input-box .icon {
+    position: absolute;
+    right: 50px;
+    color: #ffff;
+    font-size: 1em;
+    line-height: 57px;
+}
+    
+    #arrow{
+     margin-left: 20px;
+     font-size: 20px;
+     margin-top: 30px;
+     color:#fff;
+    }
+    
+    #up{
+        background-color: #700303;
+        height: 50px;
+        width: 100%;
+        top: 0;
+    }
+    #head{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        margin-left: 120px;
+        color: whitesmoke;
+    }
+    hr{
+        margin-left: 50px;
+        width: 255px;
+    }
+    #relog{
+        margin-left: 50px;
+    }
+    #last{
+        color: gray;
+        text-decoration: underline;
+    }
+    
+    footer{
+        height: 80px;
+        background-color: black;
+        
+    }
+    #map{
+       margin-left: 300px;
+    }
+    #ter{
+        margin-left: 20px;
+    }
+    #l1{
+        margin-left: 340px;
+    }
+    #cmagic{
+        color: #b7b098;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 740px;
+        margin-top: 40px;
+    }
+    #check{
+        width: 15px;
+        margin-left: 50px;
+    }
+    #pri{
+        color: gray;
+        text-decoration: underline;
+    }
+    p1{
+        font-size: 13px;
+    }
+    #new{
+        color: black;
+    }
